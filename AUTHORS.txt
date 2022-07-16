@@ -1,0 +1,10 @@
+- Axis TCP Monitor
+- Tunnellij
+	for redirecting ports
+
+Chrome, Firefox and Edge developer tools
+
+'livereload' extension for reloading of templates during web development.
+
+Build project instead of restarting it to reflect changes immediately in less time in running application.
+The classes altered are loaded again by intellij.
