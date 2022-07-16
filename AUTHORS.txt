@@ -19,3 +19,7 @@ JPA Entity Relationships
    Bidirectional Mapping (recommended : You can navigate the object graph in both directions)
 
    See JPA-Entity-Relationships.pdf for more...
+
+   - @Lob annotation is used to store large text in database (blob datatype).
+   - @Enumerated is used to store enums in database. value can be EnumType.ORDINAL or EnumType.STRING. By default, it is ORDINAL, but
+     it is recommended to use STRING because ORDINAL position can change but String values remain same.
