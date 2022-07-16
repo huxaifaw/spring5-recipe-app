@@ -8,3 +8,14 @@ Chrome, Firefox and Edge developer tools
 
 Build project instead of restarting it to reflect changes immediately in less time in running application.
 The classes altered are loaded again by intellij.
+
+JPA Entity Relationships
+    - OneToOne
+    - OneToMany
+    - ManyToOne
+    - ManyToMany
+
+   Unidirectional Mapping
+   Bidirectional Mapping (recommended : You can navigate the object graph in both directions)
+
+   See JPA-Entity-Relationships.pdf for more...
