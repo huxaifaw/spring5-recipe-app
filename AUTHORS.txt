@@ -23,3 +23,10 @@ JPA Entity Relationships
    - @Lob annotation is used to store large text in database (blob datatype).
    - @Enumerated is used to store enums in database. value can be EnumType.ORDINAL or EnumType.STRING. By default, it is ORDINAL, but
      it is recommended to use STRING because ORDINAL position can change but String values remain same.
+
+Project Lombok
+    Refactor -> Lombok
+    Refactor -> DeLombok
+
+@SLF4J - Simple Logging Facade for Java serves as a simple facade or abstraction for various logging frameworks (e.g. java.util.logging, logback, log4j)
+         allowing the end user to plug in the desired logging framework at deployment time.
