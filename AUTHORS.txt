@@ -30,3 +30,8 @@ Project Lombok
 
 @SLF4J - Simple Logging Facade for Java serves as a simple facade or abstraction for various logging frameworks (e.g. java.util.logging, logback, log4j)
          allowing the end user to plug in the desired logging framework at deployment time.
+
+TESTING
+Spring MockMVC - Used to test Spring MVC Controllers
+@DirtiesContext - It shuts down the Spring Context for the method annotated with it after running the test.
+                  Spring context is loaded again for other methods
