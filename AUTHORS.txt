@@ -35,3 +35,5 @@ TESTING
 Spring MockMVC - Used to test Spring MVC Controllers
 @DirtiesContext - It shuts down the Spring Context for the method annotated with it after running the test.
                   Spring context is loaded again for other methods
+
+Added CircleCI build file
