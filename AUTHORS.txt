@@ -37,3 +37,7 @@ Spring MockMVC - Used to test Spring MVC Controllers
                   Spring context is loaded again for other methods
 
 Added CircleCI build file
+
+@PathVariable and {} are used to extract a part of url (between /)
+ - {} -> string between curly brackets tells the part to be extracted
+ - @PathVariable tells Spring that this variable is extracted from the url
