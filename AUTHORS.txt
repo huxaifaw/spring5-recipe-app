@@ -41,3 +41,10 @@ Added CircleCI build file
 @PathVariable and {} are used to extract a part of url (between /)
  - {} -> string between curly brackets tells the part to be extracted
  - @PathVariable tells Spring that this variable is extracted from the url
+
+ Command Bean (aka Backing Bean)
+ Used to bind data to and from Web Forms in Spring MVC
+
+ Command Objects should be created because as your web application evolve, and you add more data members to your class,
+ you might want some of your data not to be shown or set via the web page.
+ So, Command Objects are created for making visible the part that you need to be set to or from the web page.

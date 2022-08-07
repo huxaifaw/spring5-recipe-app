@@ -4,6 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import zaifi.springframework.spring5recipeapp.convertors.RecipeCommandToRecipe;
+import zaifi.springframework.spring5recipeapp.convertors.RecipeToRecipeCommand;
 import zaifi.springframework.spring5recipeapp.domain.Recipe;
 import zaifi.springframework.spring5recipeapp.repositories.RecipeRepository;
 
@@ -20,12 +22,17 @@ public class RecipeServiceImplTest {
     RecipeServiceImpl recipeService;
     @Mock
     RecipeRepository recipeRepository;
+    @Mock
+    RecipeToRecipeCommand recipeToRecipeCommand;
+    @Mock
+    RecipeCommandToRecipe recipeCommandToRecipe;
+
 
     @Before
     @Deprecated
     public void setUp() {
         MockitoAnnotations.initMocks(this);
-        recipeService = new RecipeServiceImpl(recipeRepository);
+        recipeService = new RecipeServiceImpl(recipeRepository, recipeCommandToRecipe, recipeToRecipeCommand);
     }
 
     @Test
